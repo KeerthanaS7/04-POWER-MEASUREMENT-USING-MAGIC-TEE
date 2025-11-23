@@ -24,63 +24,56 @@ the polarization, there can be no coupling between the two arms. The E and H arm
 The magic associated with the hybrid junction is the way in which the power is divided in the various arms. The signal fed into the shunt or H-arms divides its ~ If equally and in phase in the twoside arms with no coupling in E-arm. When the signal is fed into the series or E-arm it also divides itself equally in the two arms, but this time two halves are 180o out of phase ad there is no coupling to the H-arm. If the power is fed into one of the arms, it divides equally in the shunt and series arm and there is no coupling in the other side arm. That is to finally that in a magic tee, opposite arms are isolated.
 A magic tee can also be used as a signal combiner. If the signals are fed to both the side arms, theywill combine in phase in H-arm and 180o out of phase in E-arm.
 
-**A magic tee is normally characterized by two quantities:**
+A magic tee is normally characterized by two quantities:
 
-1.	Isolation between E and H arms
-2.	Power division in collinear arms
-
-**Isolation between E and H arms**
+Isolation between E and H arms
+Power division in collinear arms
+Isolation between E and H arms
 
 If the power flowing into E arm is taken as PE and power flowing out of H-arm as PH thenIsolation(dB) = -10 log10 PH/ PE This assumes that both the collinear arms are match terminated.
 
+Power division
 
+The power fed in either the E or H arm should divide itself equally in both the side arms, when the opposite port is match terminated. If we designate the power entering the E arm as PE and power in side arms as PC1 and PC2 then the ratio of the power coupled in side arms to that entering inthe E-arm is given by the relation. Coupling (dB) = 10 log10 PC1/ PH = -10 log10 PC2/ PH.
 
-**Power division**
+E. Procedure: General
 
-The power fed in either the E or H arm should divide itself equally in both the side arms, when the opposite port is match terminated. If we designate the power entering the E arm as PE and power in side arms as PC1 and PC2 then the ratio of the power coupled in side arms to that entering inthe E-arm is given by the relation.
-Coupling (dB) = 10 log10 PC1/ PH = -10 log10 PC2/ PH.
+Set up the equipment as shown in fig 9a.
 
-**E.	Procedure: General**
+Keep the control knobs of Klystron Power Supply as belowMode Switch : AM Beam Voltage Knob : Fully Anti Clockwise Repeller Voltage Knob : Fully Clockwise Meter Switch : Cathode Voltage Position
 
-1.	Set up the equipment as shown in fig 9a.
-2.	Keep the control knobs of Klystron Power Supply as belowMode Switch	: AM
-    Beam Voltage Knob : Fully Anti Clockwise
-    Repeller Voltage Knob	: Fully Clockwise Meter Switch	: Cathode Voltage Position
-3.	Measurement or isolation between E and H arms
-    3.1	Set the attenuator around 20dB. Let this setting be (A1) dB
-    3.2	Achieve a state reference reading on the SWR meter, preferably in 40dB range of theSWR meter
-    3.3	Disconnect and setup as shown in fig 9b
-    3.4	Reduce the attenuation till the SWR meter reads the value obtained in step 3.2 notethe attenuation setting (A2) dB. The difference in the attenuator setting (A1-A2) dB gives the isolation in dB.
-4.	Experimental setup for demonstrating the 3 dB power division in the collinear arms.
-    4.1	Now the power input be either E or H arms.
-    4.2	Set the attenuator to get reference reading on SWR meter without the componentunder test. Note the attenuator setting (A1) dB
-    4.3	Connect the component under test(Magic tee)
-    4.4	Reduce the attenuation to get the reference reading obtained in step 4.2
-    4.5	Note down the attenuator setting (A2) dB
+Measurement or isolation between E and H arms 3.1 Set the attenuator around 20dB. Let this setting be (A1) dB 3.2 Achieve a state reference reading on the SWR meter, preferably in 40dB range of theSWR meter 3.3 Disconnect and setup as shown in fig 9b 3.4 Reduce the attenuation till the SWR meter reads the value obtained in step 3.2 notethe attenuation setting (A2) dB. The difference in the attenuator setting (A1-A2) dB gives the isolation in dB.
 
-The difference in the attenuator settings gives the ration of the
-power coupled to thecollinear to that in the main arm, in dB. This value is around 3dB.
+Experimental setup for demonstrating the 3 dB power division in the collinear arms. 4.1 Now the power input be either E or H arms. 4.2 Set the attenuator to get reference reading on SWR meter without the componentunder test. Note the attenuator setting (A1) dB 4.3 Connect the component under test(Magic tee) 4.4 Reduce the attenuation to get the reference reading obtained in step 4.2 4.5 Note down the attenuator setting (A2) dB\
 
-**F.	Observation: ( Include your own Table relevant to the Experiment)**
+F. Observation:
 
-**Isolation measurement** (Tabulation)
+Isolation measurement (Tabulation)
 
-**Measurement of power division** (Tabulation)
+<img width="1032" height="283" alt="image" src="https://github.com/user-attachments/assets/7277c8d0-f880-4058-86c9-202060f00600" />
 
+Measurement of power division (Tabulation)
 
-**G.	Analysis of Results: (Write your own)**
+<img width="1020" height="265" alt="image" src="https://github.com/user-attachments/assets/1eeb552a-262a-4fc2-b338-dcc100c43515" />
 
-(Include sample calculations/Display/plot/typical graph)
+G. Analysis of Results:
 
-**H.	Conclusions: (Write your Own)**
+The measured power distribution showed correct sum and difference behavior between the E-arm and H-arm. A strong output at the sum port and a reduced/null output at the difference port confirmed proper phase characteristics. Slight deviations from ideal values occurred due to mismatching and insertion losses. Overall, the Magic Tee operated as expected for power combining and dividing.
+
+H. Conclusions:
 
 Isolation between E and H arms (dB) = (A1 – A2) dB
-Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB
 
-**Precautions:**
+Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB = 716mV
 
-•	Check the connections before switching on the kit.
-•	Connections should be done properly.
-•	Observation should be taken properly.
+Precautions:
 
-**Result:**
+• Check the connections before switching on the kit.
+
+• Connections should be done properly.
+
+• Observation should be taken properly.
+
+Result:
+
+The Magic Tee correctly demonstrated sum and difference power behavior, with higher power at the sum port and reduced or null power at the difference port, validating its proper operation.
